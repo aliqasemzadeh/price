@@ -16,6 +16,6 @@ class Format
     {
         $numberArray = explode('.', $number);
 
-        return rtrim(number_format($numberArray[0]) . "." . sprintf("%8f", $number), '0');
+        return rtrim(number_format($numberArray[0]) . "." . sprintf("%8f", $numberArray[1]), '0');
     }
 }
