@@ -1,0 +1,18 @@
+{
+    "name": "aliqasemzadeh/price_format",
+    "description": "This package helps you to display number and price in format that you want.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Aliqasemzadeh\\PriceFormat\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ali Qasemzadeh",
+            "email": "aliqasemzadeh7@gmail.com"
+        }
+    ],
+    "require": {}
+}
