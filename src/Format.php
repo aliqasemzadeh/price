@@ -14,6 +14,8 @@ class Format
 
     public static function formatPrice($number , $precision = 8)
     {
-        return number_format($number, $precision);
+        $numberArray = explode('.', $number);
+
+        return number_format($numberArray[0]) . "." . sprintf("%8f", $number);
     }
 }
