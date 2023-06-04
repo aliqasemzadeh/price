@@ -1,5 +1,5 @@
 <?php
-
+namespace AliQasemzadeh\Price;
 class Format
 {
     public static function price($number)
