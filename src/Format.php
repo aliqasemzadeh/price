@@ -7,13 +7,13 @@ class Format
         return rtrim(rtrim(sprintf("%10.8f", $number), '0'), '.');
     }
 
-    public static function formatFloat($number , $float)
+    public static function formatFloat($number , $precision = 8)
     {
-        return rtrim(rtrim(sprintf("%10.{$float}f", $number), '0'), '.');
+        return rtrim(rtrim(sprintf("%10.{$precision}f", $number), '0'), '.');
     }
 
-    public static function formatPrice($number , $float)
+    public static function formatPrice($number , $precision = 8)
     {
-        return number_format(rtrim(rtrim(sprintf("%10.{$float}f", $number), '0'), '.'));
+        return number_format($number, $precision);
     }
 }
