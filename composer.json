@@ -3,6 +3,7 @@
     "description": "This package helps you to display number and price in format that you want.",
     "type": "library",
     "license": "MIT",
+    "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
             "AliQasemzadeh\\Price\\": "src/"
